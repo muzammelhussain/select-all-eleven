@@ -1,0 +1,202 @@
+[
+  {
+    "player_id": 1,
+    "player_name": "Lionel Messi",
+    "player_image": "https://i.ibb.co/CsKrwQQ1/skynews-lionel-messi-argentina-5991764.jpg",
+    "player_country": "Argentina",
+    "playing_role": "Forward",
+    "playing_position": "Right Wing",
+    "player_price": 95000,
+    "player_rating": 94
+  },
+  {
+    "player_id": 2,
+    "player_name": "Cristiano Ronaldo",
+    "player_image": "https://i.ibb.co/0p8hLWy3/47653-113242-eng.webp",
+    "player_country": "Portugal",
+    "playing_role": "Forward",
+    "playing_position": "Striker",
+    "player_price": 87000,
+    "player_rating": 93
+  },
+  {
+    "player_id": 3,
+    "player_name": "Neymar Jr",
+    "player_image": "https://i.ibb.co/5J8qDdc/neymar-jr-net-worth-brazil-world-cup-football.webp",
+    "player_country": "Brazil",
+    "playing_role": "Forward",
+    "playing_position": "Left Wing",
+    "player_price": 78000,
+    "player_rating": 91
+  },
+  {
+    "player_id": 4,
+    "player_name": "Kylian Mbappé",
+    "player_image": "https://i.ibb.co/4gKTGg6z/kylian-mbappe-footballer-dq-2160x3840.jpg",
+    "player_country": "France",
+    "playing_role": "Forward",
+    "playing_position": "Striker",
+    "player_price": 92000,
+    "player_rating": 92
+  },
+  {
+    "player_id": 5,
+    "player_name": "Kevin De Bruyne",
+    "player_image": "https://i.ibb.co/CsKrwQQ1/skynews-lionel-messi-argentina-5991764.jpg",
+    "player_country": "Belgium",
+    "playing_role": "Midfielder",
+    "playing_position": "Attacking Midfield",
+    "player_price": 81000,
+    "player_rating": 91
+  },
+  {
+    "player_id": 6,
+    "player_name": "Luka Modrić",
+    "player_image": "https://i.ibb.co/0p8hLWy3/47653-113242-eng.webp",
+    "player_country": "Croatia",
+    "playing_role": "Midfielder",
+    "playing_position": "Central Midfield",
+    "player_price": 72000,
+    "player_rating": 89
+  },
+  {
+    "player_id": 7,
+    "player_name": "Virgil van Dijk",
+    "player_image": "https://i.ibb.co/5J8qDdc/neymar-jr-net-worth-brazil-world-cup-football.webp",
+    "player_country": "Netherlands",
+    "playing_role": "Defender",
+    "playing_position": "Center Back",
+    "player_price": 88000,
+    "player_rating": 91
+  },
+  {
+    "player_id": 8,
+    "player_name": "Sergio Ramos",
+    "player_image": "https://i.ibb.co/4gKTGg6z/kylian-mbappe-footballer-dq-2160x3840.jpg",
+    "player_country": "Spain",
+    "playing_role": "Defender",
+    "playing_position": "Center Back",
+    "player_price": 69000,
+    "player_rating": 89
+  },
+  {
+    "player_id": 9,
+    "player_name": "Trent Alexander-Arnold",
+    "player_image": "https://i.ibb.co/CsKrwQQ1/skynews-lionel-messi-argentina-5991764.jpg",
+    "player_country": "England",
+    "playing_role": "Defender",
+    "playing_position": "Right Back",
+    "player_price": 76000,
+    "player_rating": 90
+  },
+  {
+    "player_id": 10,
+    "player_name": "Alphonso Davies",
+    "player_image": "https://i.ibb.co/0p8hLWy3/47653-113242-eng.webp",
+    "player_country": "Canada",
+    "playing_role": "Defender",
+    "playing_position": "Left Back",
+    "player_price": 74000,
+    "player_rating": 89
+  },
+  {
+    "player_id": 11,
+    "player_name": "Manuel Neuer",
+    "player_image": "https://i.ibb.co/5J8qDdc/neymar-jr-net-worth-brazil-world-cup-football.webp",
+    "player_country": "Germany",
+    "playing_role": "Goalkeeper",
+    "playing_position": "Goalkeeper",
+    "player_price": 65000,
+    "player_rating": 91
+  },
+  {
+    "player_id": 12,
+    "player_name": "Robert Lewandowski",
+    "player_image": "https://i.ibb.co/4gKTGg6z/kylian-mbappe-footballer-dq-2160x3840.jpg",
+    "player_country": "Poland",
+    "playing_role": "Forward",
+    "playing_position": "Striker",
+    "player_price": 89000,
+    "player_rating": 92
+  },
+  {
+    "player_id": 13,
+    "player_name": "Karim Benzema",
+    "player_image": "https://i.ibb.co/CsKrwQQ1/skynews-lionel-messi-argentina-5991764.jpg",
+    "player_country": "France",
+    "playing_role": "Forward",
+    "playing_position": "Striker",
+    "player_price": 77000,
+    "player_rating": 90
+  },
+  {
+    "player_id": 14,
+    "player_name": "Mohamed Salah",
+    "player_image": "https://i.ibb.co/0p8hLWy3/47653-113242-eng.webp",
+    "player_country": "Egypt",
+    "playing_role": "Forward",
+    "playing_position": "Right Wing",
+    "player_price": 85000,
+    "player_rating": 91
+  },
+  {
+    "player_id": 15,
+    "player_name": "Harry Kane",
+    "player_image": "https://i.ibb.co/5J8qDdc/neymar-jr-net-worth-brazil-world-cup-football.webp",
+    "player_country": "England",
+    "playing_role": "Forward",
+    "playing_position": "Striker",
+    "player_price": 90000,
+    "player_rating": 90
+  },
+  {
+    "player_id": 16,
+    "player_name": "Erling Haaland",
+    "player_image": "https://i.ibb.co/4gKTGg6z/kylian-mbappe-footballer-dq-2160x3840.jpg",
+    "player_country": "Norway",
+    "playing_role": "Forward",
+    "playing_position": "Striker",
+    "player_price": 97000,
+    "player_rating": 92
+  },
+  {
+    "player_id": 17,
+    "player_name": "Joshua Kimmich",
+    "player_image": "https://i.ibb.co/CsKrwQQ1/skynews-lionel-messi-argentina-5991764.jpg",
+    "player_country": "Germany",
+    "playing_role": "Midfielder",
+    "playing_position": "Defensive Midfield",
+    "player_price": 73000,
+    "player_rating": 90
+  },
+  {
+    "player_id": 18,
+    "player_name": "Paul Pogba",
+    "player_image": "https://i.ibb.co/0p8hLWy3/47653-113242-eng.webp",
+    "player_country": "France",
+    "playing_role": "Midfielder",
+    "playing_position": "Central Midfield",
+    "player_price": 68000,
+    "player_rating": 88
+  },
+  {
+    "player_id": 19,
+    "player_name": "Casemiro",
+    "player_image": "https://i.ibb.co/5J8qDdc/neymar-jr-net-worth-brazil-world-cup-football.webp",
+    "player_country": "Brazil",
+    "playing_role": "Midfielder",
+    "playing_position": "Defensive Midfield",
+    "player_price": 72000,
+    "player_rating": 89
+  },
+  {
+    "player_id": 20,
+    "player_name": "Thibaut Courtois",
+    "player_image": "https://i.ibb.co/4gKTGg6z/kylian-mbappe-footballer-dq-2160x3840.jpg",
+    "player_country": "Belgium",
+    "playing_role": "Goalkeeper",
+    "playing_position": "Goalkeeper",
+    "player_price": 75000,
+    "player_rating": 91
+  }
+]

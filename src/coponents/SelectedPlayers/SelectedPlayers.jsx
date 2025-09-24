@@ -1,6 +1,7 @@
+import AvailablePlayers from "../AvailablePlayers/AvailablePlayers";
 import SelectedCards from "./SelectedCards/SelectedCards";
 
-const SelectPlayers = ({purchasePlayers,removePlayer}) => {
+const SelectPlayers = ({purchasePlayers,removePlayer, toggle, setToggle }) => {
     console.log(purchasePlayers)
     return (
         <div className="space-y-2">
@@ -10,8 +11,12 @@ const SelectPlayers = ({purchasePlayers,removePlayer}) => {
             
             )
             }
+            <button onClick={()=>setToggle(true)} className="btn btn-outline btn-warning">Add Players</button>
 
+           
         </div>
+        //  {/* {toggle === true? <AvailablePlayers></AvailablePlayers> : " "
+        //     } */}
     )
 }
 

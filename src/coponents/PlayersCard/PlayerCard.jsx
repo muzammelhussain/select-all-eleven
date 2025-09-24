@@ -6,28 +6,26 @@ const PlayerCard = ({player,availableBalance, setAvailableBalance, setPurchasedP
     const [isSelected, setSelected] = useState(false);
 
     const handleSelected = (playerData) => {
-      if(availableBalance >= playerData.player_price ){
+      if (purchasePlayers.length === 6) {
+     toast.error("You cannot buy more than 6 players!", {
+  position: "top-right",
+});
+    return;
+    } else if(availableBalance >= playerData.player_price ){
         setSelected(true);
         setAvailableBalance(availableBalance-playerData.player_price);
       
         setPurchasedPlayers([...purchasePlayers,playerData])
       
-    //  toast.success("Purchase is done!!", {
-    //     position: toast.POSITION.TOP_CENTER,
-    //     autoClose: 2000,
-    //   });
-      }  else if (purchasePlayers.length === 6) {
-      // toast.error("You cannot buy more than 6 players!", {
-      //   position: "top-left",
-      //   autoClose: 2000,
-     // });/
-     alert("You cannot buy more than 6 players!")
-    } else {
-  //  toast.error("Not enough coins!!", {
-  //       position: toast.POSITION.TOP_LEFT,
-  //       autoClose: 2000,
-  //     });
-    alert("not enough coin.....")
+    toast.success("Player has been added!", {
+  position: "top-right",
+});
+      }  else {
+     
+    toast.error("Not enough coins!!", {
+  position: "top-right",
+});
+
       }
         
         
@@ -35,11 +33,7 @@ const PlayerCard = ({player,availableBalance, setAvailableBalance, setPurchasedP
 
     return(
         <div className="card bg-white w-96 shadow-sm">
-  <figure className="m-6 rounded-md">
-    <img className="w-[350px] h-[200px] bg-cover"
-      src={player.player_image}
-      alt="Shoes" />
-  </figure>
+  <div className={`w-[350px] min-h-[250px] rounded-md bg-cover bg-top-center mx-auto my-3`} style={{backgroundImage: `url(${player.player_image})`}}></div>
   <div className="card-body space-y-2">
     <h2 className="card-title"><img src={userImg} alt="" />{player.player_name}</h2>
     <div className="flex justify-between items-center  border-b-1 border-gray-400">
